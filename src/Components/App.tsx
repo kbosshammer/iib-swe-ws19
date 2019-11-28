@@ -15,6 +15,7 @@ import React, { FC } from 'react'
 
 import logo from '../icons/logo.svg'
 import { responsiveTheme } from '../theme'
+import Kategorien from './kategorien'
 
 const useStyles = makeStyles(theme =>
     createStyles({
@@ -54,6 +55,7 @@ const App: FC = () => {
                             )
                         )}
                     </Grid>
+                    <Kategorien></Kategorien>
                 </div>
             </Container>
         </ThemeProvider>
